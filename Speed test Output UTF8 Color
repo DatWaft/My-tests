@@ -42,9 +42,9 @@ int main()
 	// Ways to write
 
 	//WriteConsoleW(GetStdHandle(STD_OUTPUT_HANDLE), s.str().c_str(), s.str().size(), NULL, NULL);  // 120	milisegundos
-	//wprintf(s.str().c_str());																		// 1300	milisegundos
-	//std::wcout << s.str() << std::flush;															// 2604	milisegundos
-	//std::wcout.write(s.str().c_str(), s.str().size());											// 2632 milisegundos										// 2632 milisegundos
+	//wprintf(s.str().c_str());									// 1300	milisegundos
+	//std::wcout << s.str() << std::flush;								// 2604	milisegundos
+	//std::wcout.write(s.str().c_str(), s.str().size());						// 2632 milisegundos										// 2632 milisegundos
 	//std::wcout.flush();
 
 	t_fin = clock();
